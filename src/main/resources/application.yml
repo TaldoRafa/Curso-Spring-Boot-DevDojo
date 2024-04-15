@@ -16,3 +16,21 @@ logging:
     org:
       hibernate:
         SQL: DEBUG
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    info:
+      enabled: true
+  info:
+    env:
+      enabled: true
+
+info:
+  app: Spring Boot e Essentials By DevDojo
+  website: https://devdojo.academy
+  author: Rafael Roani Gonçalves
